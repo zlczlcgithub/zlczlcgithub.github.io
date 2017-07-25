@@ -1,32 +1,123 @@
-﻿ <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-    <style>
-    a{text-decoration:none;font-size:20px;font-weight:bold;width:160px;height:50px; text-align:center;}
-    body{text-align:center}
-    div {
-	position:absolute;
-	top:30%;
-	left:50%;
-	margin:-150px 0 0 -200px;
-	width:400px;
-	height:300px;
-	}
-    </style>
-<head>
-    <div><title>MSNMMI</title>
- 
+	 <head>
+	 <title>Home</title>
+	 <meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width; initial-scale=1.0">
+	 <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
+	 <script type="text/javascript" src="./js/jquery-1.8.1.min.js"></script>
+	 <script type="text/javascript" src="./js/superfish.js"></script>
+	 <script type="text/javascript" src="./js/jquery.responsivemenu.js"></script>
+	 <script type="text/javascript" src="./js/jquery.mobilemenu.js"></script>
+	 <script type="text/javascript" src="./js/jquery.flexslider.js"></script>
+	 <script type="text/javascript" src="./js/jquery.easing.1.3.js"></script>
+	 <script src="./js/jquery.equalheights.js" type="text/javascript"></script>
+	 <script src="./js/script.js"></script>
+	 <script type="text/javascript">
+		  $(window).load(function() {
+				$('.flexslider').flexslider({
+				  animation: "slide"
+				});
+			 });
+	 </script>
+	 </head>
+	 <body id="main_page">
+<div class="main_box">
+       <div class="container_12"> 
+    <!--==============================header=================================-->
+    <div class="grid_12">
+           <header>
+        <h1><a class="logo" href="index.html">BIG</a></h1>
+        <nav>
+               <ul class="sf-menu">
+            <li class="current"><a href="index.html">首页</a></li>
+            <li><a href="./team.html">团队</a></li>
 
-</head>
-<body  bgcolor="#F0F0F0">
+            <li class="current"><a href="#">申请项目</a>
+		    <ul>
+                      <li><a href="./japan.html">日本</a></li>
+                      <li><a href="./us.html">美国</a></li>      
+                    </ul>
+	    </li>
+            <li><a href="./gallery.html">成功案例</a></li>
+            <li><a href="./contact.html">联系</a></li>
+          </ul>
+             </nav>
+        <div class="clear"></div>
+      </header>
+           <div class="slider_box">
+        <div class="flexslider" >
+               <ul class="slides" >
+            <li><img src="./images/banner.jpg" alt="" /></li>
+          </ul>
+               <div class="introduction" align = "center" >
+            <h1></h1>
+            <br><b>
+            一休留学</b><br><br></div>
+			<div class="introduction2"align = "center" >
+            一一常熟最专业的留学管家 </div>
+             </div>
+      </div>
+         </div>
+    <div class="clear" ></div>
     
-    <p style ="text-align:center;"><img src="./images/logo.png" width="200" height="200" text-align:center/></p>
+    <!--==============================content================================--> 
+    
+  </div>
+     </div>
+	 <aside>
+	 <div class="title1" align = "center"><b>三大优势</b></strong></div>
 
-    <h1>Under Construction</h1>
-      <br> <a style=" color:#000079; font-size:22px;" href = "http://bo.io.gov.mo/bo/ii/2016/31/anotariais_cn.asp#597">Constitution/章程</a><br>
-  <br><br>  <a style=" color:#000079; font-size:22px;" href = "./MSNMMI_leadership.doc">Leadership/組織結構</a><br>
- 
-   </div>
-  <!--==============================footer=================================-->
-
+      <div class="container_12">
+    <div class="wrapper">
+           <article class="grid_4">
+        <div class="pad_box">
+               
+               <span class="text">
+          <ul>
+                 <li><img src = ".\images\gallery\writing.jpg" width="300px" height="175px" align = "center"></li>
+                 <li><b>先申请，后付费。</b></li>
+               </ul>
+          </span>
+               <div class="but_wrap"> </div>
+             </div>
+        <br>
+      </article>
+	  <article class="grid_4">
+        <div class="pad_box">
+               
+               <span class="text">
+          <ul>
+                 <li><img src = ".\images\gallery\waseda.jpg" width="300px" height="175px" align = "center"></li>
+                 <li><b>一休拥有第一手的留学资讯，团队成员均毕业或正就读于日美名校，为您带来最可靠，最优质的留学服务。</b></li>
+               </ul>
+          </span>
+               <div class="but_wrap"> </div>
+             </div>
+        <br>
+      </article>
+	  <article class="grid_4">
+        <div class="pad_box">
+               
+               <span class="text">
+          <ul>
+                 <li><img src = ".\images\gallery\fangta.jpg" width="300px" height="175px" align = "center"></li>
+                 <li><b>团队成员均为常熟人，自己家的中介，找自己人办事，放心！</b></li>
+                 
+               </ul>
+          </span>
+               <div class="but_wrap"> </div>
+             </div>
+        <br>
+      </article>
+           
+	   
+         </div>
+  </div>
+     </aside>
+<!--==============================footer=================================-->
+<center>
+       <footer>&copy;一休留学 </footer>
+     </center>
 </body>
 </html>

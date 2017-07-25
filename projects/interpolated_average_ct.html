@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Interpolated Average CT for Thoracic PET/CT Attenuation Correction</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css">
+    <script type="text/javascript" src="../js/jquery-1.8.1.min.js"></script>
+    <script type="text/javascript" src="../js/superfish.js"></script>
+	 <script type="text/javascript" src="../js/jquery.responsivemenu.js"></script>
+   <script type="text/javascript" src="../js/jquery.mobilemenu.js"></script>
+	 <script type="text/javascript" src="../js/jquery.flexslider.js"></script>
+	 <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+   <script src="../js/jquery.equalheights.js" type="text/javascript"></script>
+	 <script src="../js/script.js"></script>
+	 <script type="text/javascript">
+		  $(window).load(function() {
+				$('.flexslider').flexslider({
+				  animation: "fade"
+				});
+			 });
+	 </script>
+
+</head>
+<body id="main_page">
+  <div class="main_box">
+    <div class="container_12">
+    <!--==============================header=================================-->
+        <div class="grid_12">
+          <header>
+            <h1><a class="logo" href="../index.html">Cluster</a></h1>
+        <nav>
+               <ul class="sf-menu">
+            <li><a href="../index.html">home</a></li>
+            <li><a href="../team.html">People</a></li>
+            <li class="current"><a href="#">Research</a>
+		    <ul>
+                      <li><a href="../facility.html">Facilities</a></li>
+                      <li><a href="../pub.html">PUBLICATION</a></li>
+                      <li><a href="../project.html">PROJECTS</a></li>
+                      <li><a href="../honor.html">Honor</a></li>
+                      <li><a href="../sponsor.html">Funding</a></li>
+                      <li><a href="../co.html">Collaborator</a></li>
+		      <li><a href="../resource.html">Resource</a></li>
+                    </ul>
+	    </li>
+            <li><a href="../teach.html">Teaching</a></li>
+            <li><a href="../gallery.html">GALLERY</a></li>
+            <li><a href="../contact.html">contact us</a></li>
+          </ul>
+             </nav>
+
+          </header><br>
+		<div class="bg"></div>
+      </div>
+        <div class="clear"></div>
+    <!--==============================content================================-->
+    
+    
+        <section id="content" class="cont_pad">
+ 		 <div class="wrapper">
+            <article class="grid_12">
+              <h2 class="ind3">Interpolated Average CT for Thoracic PET/CT Attenuation Correction</h2><p>
+
+                            <div style="float:none">
+						<p>We proposed a new attenuation correction (AC) method entitled “interpolated average CT (IACT)” for PET to reduce the respiratory misalignments in PET/CT. CT images of the desired phases, e.g., end-inspiration and end-expiration phases from a respiratory cycle are used to generate the velocity matrix using deformable image registrations such as the optical flow method (OFM) and B-spline algorithm. Interpolated phases are then obtained via linear and empirical/semi-patient specific sinusoidal functions. The IACT is obtained by averaging the original and interpolated phases (Fig. 1). </p>
+                        <p>
+                        In the simulation study [1], The IACT modeled the respiratory motion similarly to the Cine Average CT (CACT) method. Less artifacts and better mismatching were observed in the IACT-AC image compared to conventional helical CT (HCT)-AC images (Fig. 2).
+                        </p>
+                        <p>In the clinical study [2], we showed that it potentially improved PET reconstructed image quality as compared to the conventional HCT, with reduced respiratory artifacts and spatial mismatch, increased SUV of the lesions and lowered radiation dose. Capturing the extreme phases with the aid of an active breathing controller to generate IACT is a robust method for thoracic PET/CT AC, and is promising to improve the diagnostic accuracy of the thoracic tumors (Fig. 3).
+</p>
+<p>
+Another cardiac study with IACT AC is ongoing and the preliminary results showed that IACT for cardiology application is promising to reduce artifactual defects (Fig. 4). 
+
+</p>
+<center>
+<p>
+<table>
+<tr align="center"><td><img src="./interpolated_average_ct_files/image001.png" width="60%"></td></tr>
+<tr align="center"><td>Figure 1. Steps to generate IACT</td></tr>
+</table>
+</p>
+<p>
+<table>
+<tr><td align="center"><img src="./interpolated_average_ct_files/image010.png"></td></tr>
+<tr><td>Figure 2. (a) Different noisy attenuation maps for AC. (b) Their corresponding  PET reconstructed images from noisy sinogram with 100 updates for maximum respiratory motion of 2 cm. Significant misalignment artifacts were observed for the PET images using HCTs for AC (red arrows).
+</td></tr>
+<tr><td align="center"><img src="./interpolated_average_ct_files/image005.png" width="60%"></td></tr>
+<tr><td>Figure 3. Transaxial (left), coronal (middle), and sagittal (right) views of the fused PET/CT images for (a) HCT- and (b) IACT-AC for one patient.
+Red arrows indicated a lesion in the right upper lobe of the lung.
+</td>
+</tr>
+</table>
+</p>
+<p>
+<table>
+<tr><td align="center"><img src="./interpolated_average_ct_files/image008.png" width="60%"></td></tr>
+<tr><td>Figure 4. (a) Short-axis view of PET reconstructed images with different CT AC maps. (b) Bulls eye plot of the corresponding PET images.</td></tr>
+</table>
+</p>
+</center>
+<p>
+[1] Mok GSP, Sun T, Huang TC, Vai MI. “Interpolated Average CT for Attenuation Correction in PET – a Simulation Study”. 
+IEEE Transaction on Biomedical Engineering, vol. 60:7, pp. 1927-1934, 2013<br>
+[2] Sun T, Wu TH, Wang SJ, Yang BH, Wu NY, Mok GSP. “Low dose interpolated average CT for thoracic PET/CT attenuation correction using an active breathing controller”. 
+Medical Physics, vol.40, pp.102507, 2013.
+</p>
+
+
+              </div>
+ 
+              
+            </article>
+          </div>
+        </section>
+    </div>  
+  </div>
+
+  <!--==============================footer=================================-->
+<center><footer><img src="../images/um.jpg" width="60">&copy;2013 Biomedical Imaging Laboratory , University Of Macau<img src="../images/fst.jpg" width="60"> </footer></center>
+</body>
+</html>

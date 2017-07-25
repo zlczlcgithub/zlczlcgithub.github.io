@@ -49,27 +49,31 @@ a:hover{ color:#53c33e; text-decoration:none;}
 
 /*********************************header*************************************/
 
-header {padding: 47px 0 0px;background: url('../images/header_glow.png') no-repeat;background-size: contain;}
+header {padding: 47px 0 60px;background: url('../images/header_glow.png') no-repeat;background-size: contain;}
 header h1{width:163px;float: left;}
-header h1 a {display:block;width:246px;height:200px;background:url(../images/font2.png) 0 0 no-repeat; text-decoration:none; text-indent:-9999px;}
+header h1 a {display:block;width:246px;height:80px;background:url(../images/logo.png) 0 0 no-repeat; text-decoration:none; text-indent:-9999px;}
 
 /*********************************Introduction*************************************/
 div.introduction { position:absolute;
- top:23%;
+ top:35%;
  left:1%;
- right:-1;color:white;font-size:16pt;width:94%;line-height: 30px;}
+ right:-1;color:white;font-size:40pt;width:94%;line-height: 30px;}
+ div.introduction2 { position:absolute;
+ top:54%;
+ left:1%;
+ right:-1;color:white;font-size:20pt;width:94%;line-height: 30px;font-style:italic;}
 
 /*********************************content*************************************/
 #content {padding:44px 0px 40px 0px;position: relative; z-index:10;}
 .cont_pad{padding:50px 0 40px 0 !important;}
 
-.bg{height:768px;background: url('../images/bg2.png') 50% 0 no-repeat;border-radius:5px;background-size: auto;}
+.bg{height:130px;background: url('../images/bg.png') 50% 0 no-repeat;border-radius:5px;background-size: auto;}
 /*================================>> Aside <<========================================*/
 aside{background: url('../images/aside.jpg') 50% 0 repeat;padding: 42px 0 39px;}
 
 #main_page aside{padding-top:43px;}
 
-.title1{font-size: 50px; line-height: 60px; color: #4b4b4b;text-transform:uppercase;font-weight:300;letter-spacing:-1px;margin-bottom:21px;}
+.title1{font-size: 35px; line-height: 60px; color: #4b4b4b;text-transform:uppercase;font-weight:300;letter-spacing:-1px;margin-bottom:21px;}
 .title1 strong{font-weight:700;}
 .title1 span{margin-top:-10px;display:block;}
 
